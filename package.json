@@ -1,15 +1,18 @@
 {
   "name": "pdf-creator",
   "version": "1.0.0",
+  "type": "module",
   "description": "Creating pdf from a mongodb JSON doc format for an invoice",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pdfkit": "^0.13.0"
   }
 }
